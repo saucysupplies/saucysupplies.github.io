@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI App Launch Check | Saucy Supply Chain</title>
+<meta name="description" content="Fixed-price security testing for AI chatbots, agents and LLM apps: prompt injection, data leaks and tool misuse, with a clear fix list.">
+<style>
+:root{--ink:#14171f;--mut:#5b6170;--line:#e3e5ea;--acc:#2f5bea;--dark:#0f1320}
+*{box-sizing:border-box}body{margin:0;font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:var(--ink)}
+.wrap{max-width:1000px;margin:0 auto;padding:0 22px}
+header{background:var(--dark);color:#fff;padding:22px 0 70px}
+nav{display:flex;justify-content:space-between;align-items:center;font-size:14px}nav a{color:#c9cfdd;text-decoration:none;margin-left:18px}
+.brand{font-weight:700;letter-spacing:.02em}
+.hero{margin-top:60px;max-width:700px}.hero h1{font-size:42px;line-height:1.15;margin:0 0 16px}.hero p{font-size:19px;color:#c9cfdd;margin:0 0 26px}
+.btn{display:inline-block;background:var(--acc);color:#fff;padding:12px 20px;border-radius:8px;text-decoration:none;font-weight:600;margin-right:10px}
+.btn.ghost{background:transparent;border:1px solid #4a5168}
+section{padding:60px 0;border-bottom:1px solid var(--line)}h2{font-size:28px;margin:0 0 8px}.lead{color:var(--mut);margin:0 0 30px;max-width:680px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.card{border:1px solid var(--line);border-radius:12px;padding:22px}.card h3{margin:0 0 6px;font-size:18px}.card p{margin:0;color:var(--mut);font-size:15px}
+.price{font-size:30px;font-weight:700;margin:6px 0}.price span{font-size:14px;color:var(--mut);font-weight:400}
+.card ul{padding-left:18px;margin:10px 0 0;color:var(--mut);font-size:15px}
+.card.feat{border:2px solid var(--acc)}
+.steps{counter-reset:s;list-style:none;padding:0;margin:0}.steps li{counter-increment:s;padding:0 0 18px 48px;position:relative}
+.steps li:before{content:counter(s);position:absolute;left:0;top:0;width:32px;height:32px;border-radius:50%;background:#eef2ff;color:var(--acc);font-weight:700;display:flex;align-items:center;justify-content:center}
+.free{background:#f6f7f9}
+footer{padding:30px 0;color:var(--mut);font-size:14px}
+a{color:var(--acc)}
+</style></head><body>
+<header><div class="wrap">
+<nav><div class="brand">Saucy Supply Chain · Security</div><div><a href="#tests">What we test</a><a href="#pricing">Pricing</a><a href="sample-report.html">Sample report</a><a href="#contact">Contact</a></div></nav>
+<div class="hero">
+<h1>Find out how your AI app can be tricked, before your users do.</h1>
+<p>Fixed-price security checks for AI chatbots, agents and LLM-powered apps. Prompt injection, data leaks between users, and agents misusing their tools, with a fix list your developers can act on the same week.</p>
+<a class="btn" href="#contact">Get a free Surface Snapshot</a><a class="btn ghost" href="sample-report.html">See a sample report</a>
+</div></div></header>
+
+<section id="tests"><div class="wrap">
+<h2>What we test</h2><p class="lead">Mapped to the OWASP Top 10 for LLM Applications and the OWASP Top 10 for web apps. Every finding is confirmed by hand before it reaches your report.</p>
+<div class="grid">
+<div class="card"><h3>Prompt injection</h3><p>Direct attacks in chat, and hidden instructions inside files, web pages and emails your assistant reads.</p></div>
+<div class="card"><h3>Data leaks</h3><p>Can one user see another user's data, documents or chat history? Can the hidden system prompt or API keys be pulled out?</p></div>
+<div class="card"><h3>Agent and tool misuse</h3><p>Can your agent be talked into sending emails, issuing refunds, browsing internal URLs or running actions it shouldn't?</p></div>
+<div class="card"><h3>Cost abuse</h3><p>Missing rate limits that let one script run up your AI bill overnight.</p></div>
+<div class="card"><h3>The web app around it</h3><p>Access control between accounts, injection bugs, auth and security headers on the same scope.</p></div>
+<div class="card"><h3>Harmful or false answers</h3><p>Whether the assistant can be pushed into making up prices, policies or promises in your name.</p></div>
+</div></div></section>
+
+<section class="free"><div class="wrap">
+<h2>Start with a free Surface Snapshot</h2>
+<p class="lead">A one-page traffic-light summary of what anyone on the internet can already see about your app: email spoofing protection, TLS and security headers, keys accidentally left in public code, outdated components with known bugs, and how your assistant behaves for an ordinary user. Passive only. No scanning or attacks, and nothing runs until you say go.</p>
+<a class="btn" href="#contact">Request a snapshot</a>
+</div></section>
+
+<section id="pricing"><div class="wrap">
+<h2>Pricing</h2><p class="lead">Fixed scope, fixed price, 3 to 5 working days. 50% before the test window, 50% on delivery of the report. Every package includes one free re-test within 30 days.</p>
+<div class="grid">
+<div class="card"><h3>Starter</h3><div class="price">US$350</div><p>One chatbot or LLM feature without tools.</p><ul><li>Prompt injection and jailbreaks</li><li>System prompt and data leakage</li><li>Report + fix list + re-test</li></ul></div>
+<div class="card feat"><h3>Standard</h3><div class="price">US$900</div><p>An LLM app with tools or a document knowledge base, plus web app basics.</p><ul><li>Everything in Starter</li><li>Indirect injection via files and web</li><li>Cross-user data leaks, tool misuse</li><li>Access control and injection on the web app</li></ul></div>
+<div class="card"><h3>Agent</h3><div class="price">US$1,800</div><p>Multi-tool agents that act on email, browsers, payments or internal systems.</p><ul><li>Everything in Standard</li><li>Two test rounds</li><li>Walk-through call with your team</li></ul></div>
+<div class="card"><h3>Release re-tests</h3><div class="price">US$250<span>/month</span></div><p>Re-test every release so new features don't reopen old holes.</p></div>
+</div>
+<p class="lead" style="margin-top:24px">Agencies building AI apps for clients: ask about partner pricing for pre-handover checks.</p>
+</div></section>
+
+<section><div class="wrap">
+<h2>How we work, safely</h2>
+<ol class="steps">
+<li><b>Written permission first.</b> Nothing is tested until you sign a one-page scope: what's in, what's out, the test window, and which higher-risk tests you approve.</li>
+<li><b>Staging where possible.</b> We prefer a staging copy and two test accounts, so real customers and data are never touched.</li>
+<li><b>Controlled and logged.</b> Rate-limited, from one fixed IP address you can allowlist, with every request logged. You can stop the test at any time.</li>
+<li><b>Serious issues reported the same day.</b> If we find something critical, we stop and tell you straight away instead of waiting for the report.</li>
+<li><b>Your data stays yours.</b> Findings are shared only with you, test data is encrypted, and everything is deleted 30 days after the report.</li>
+</ol>
+<p class="lead">We currently take clients outside Malaysia and Singapore.</p>
+</div></section>
+
+<section id="contact"><div class="wrap">
+<h2>Get in touch</h2>
+<p class="lead">Tell us your app's URL and what your assistant can do, and we'll reply with a free Surface Snapshot offer or a draft scope within 2 working days.</p>
+<a class="btn" href="mailto:saucysupplychain@gmail.com?subject=AI%20App%20Launch%20Check">Email saucysupplychain@gmail.com</a>
+</div></section>
+<footer><div class="wrap">© Saucy Supply Chain · AI App Launch Check · <a href="sample-report.html">Sample report</a></div></footer>
+</body></html>
